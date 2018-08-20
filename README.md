@@ -2,6 +2,23 @@
 
 just works.
 
+## running the example
+
+first install all dependencies
+
+	git clone https://github/wires/reason-monorepo
+	cd reason-monorepo
+	lerna bootstrap
+
+then build
+
+	lerna run build
+
+now run the demo
+
+	lerna run demo
+	
+
 ## adding a package
 
 create directory
@@ -23,4 +40,5 @@ and modify dependee's `bsconfig.json` file:
 importing from the package becomes
 
 	MyPackage.MyModule.bla
+
 
