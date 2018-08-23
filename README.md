@@ -2,6 +2,10 @@
 
 just works.
 
+## demo
+
+	lerna run demo
+
 ## adding a package
 
 create directory
